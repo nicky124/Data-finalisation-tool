@@ -1,7 +1,13 @@
-This tool will allow you to upload a .CSV file. It will:
+This Shiny R tool will allow you to upload a .CSV file. It will:
 
 * Show basic plots to help you to visualise the dataset - primarily to help spot any errors.
 * If text is identified (outside of the header row) then the column will be identified as text. 
 * Display unique levels within character columns, levels can then be merged (useful for finding and correcting typos). 
 * Provides a UI to annotate the dataset
-* Allows the raw data, edited data, annotations and modifications to be exported as csvs in a single .zip file.
+* Allows the raw data, edited data, annotations and modifications to be exported as csvs in a single .zip file
+
+Requirements
+
+* R
+* Rstudio
+* R packages: shiny, shinyBS, ggplot2, reshape2, plyr, data.table
